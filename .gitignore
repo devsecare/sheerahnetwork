@@ -1,19 +1,4 @@
-# WordPress core (optional – see note below)
-wp-admin/
-wp-includes/
-
-# Sensitive files
+# Ignore WordPress configuration (contains secrets)
 wp-config.php
-
-# Uploads
-wp-content/uploads/
-
-# Cache & logs
-wp-content/cache/
-*.log
-
-# OS / Editor files
-.DS_Store
-*.swp
 
 
